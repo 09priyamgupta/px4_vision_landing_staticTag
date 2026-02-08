@@ -275,13 +275,11 @@ px4_vision_landing_staticTag
 
 $$
 \mathbf{x}_k =
-\left[
-\begin{matrix}
+\begin{bmatrix}
 x_k \\
 y_k \\
 z_k
-\end{matrix}
-\right]
+\end{bmatrix}
 $$
 
 #### Process Model (Constant Position)
@@ -294,13 +292,11 @@ where
 
 $$
 \mathbf{F} =
-\left[
-\begin{matrix}
+\begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end{matrix}
-\right]
+\end{bmatrix}
 $$
 
 and the process noise is modeled as
@@ -321,13 +317,11 @@ where
 
 $$
 \mathbf{H} =
-\left[
-\begin{matrix}
+\begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end{matrix}
-\right]
+\end{bmatrix}
 $$
 
 and the measurement noise is modeled as
