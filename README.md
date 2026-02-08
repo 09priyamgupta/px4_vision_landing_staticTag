@@ -15,7 +15,6 @@ The KF work serves as a **foundational baseline for future extension to a moving
 The following video shows the full autonomous mission:
 takeoff → spiral search → AprilTag detection → alignment → precision landing.
 
-[▶ Watch the simulation video](videos/apriltag_precision_landing_vision.webm)
 [apriltag_precision_landing.webm](https://github.com/user-attachments/assets/80c82eda-0bc2-4338-995b-e8936a1a7054)
 
 ---
