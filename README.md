@@ -1,4 +1,9 @@
 # Vision-Based Precision Landing on a Static AprilTag using PX4 + ROS 2
+[![ROS 2](https://img.shields.io/badge/ROS_2-Humble-blue.svg)](https://docs.ros.org/en/humble/index.html)
+[![PX4](https://img.shields.io/badge/PX4-Autopilot-1A293E.svg)](https://px4.io/)
+[![Gazebo](https://img.shields.io/badge/Gazebo-Garden-orange.svg)](https://gazebosim.org/home)
+[![Python](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Abstract
 
@@ -217,7 +222,8 @@ px4_vision_landing_staticTag
 | `camera_link` | Downward-facing monocular camera | Static TF |
 | `tag36h11:0` | AprilTag frame | apriltag_ros |
 
-**TF Chain:** `map → base_link → camera_link → tag36h11:0`
+
+![TF Chain](images/tf_tree.png)
 
 ### Key Transformations:
 
@@ -568,12 +574,15 @@ If this work contributes to your research, please consider citing:
 
 ---
 
-## License
-
-MIT License
-
----
-
 ## Author
 
 Priyam Gupta
+
+[![GitHub](https://img.shields.io/badge/GitHub-09priyamgupta-black?logo=github)](https://github.com/09priyamgupta)
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
